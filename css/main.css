@@ -2086,6 +2086,18 @@ input, select, textarea {
 	animation-fill-mode: both;
 	}
 
+	.hidden {
+		opacity: 0;
+		visibility: hidden;
+		
+	}
+	
+	.in-view {
+		opacity: 1;
+		visibility: visible;
+		
+	}
+
 		/*Keyframes for on view animation*/
 
 		/* FADE IN  */
@@ -2270,10 +2282,12 @@ input, select, textarea {
 
 				.workButton.in-view{
 					animation: fadeInUpBig 2s;
+					animation-delay: 0s;
 				}
 
 				.portfolioHeadAnimation.in-view{
-					animation: fadeInUpBig 2s;
+					animation: fadeInUpBig;
+					animation-duration: 2s;
 				}
 
 				.portfolioCardUp.in-view{
@@ -2288,6 +2302,10 @@ input, select, textarea {
 					animation: fadeInUpBig 2s;
 				}
 		
+				.nigrs.in-view{
+					animation: fadeInUpBig 2s;
+				}
+
 				@keyframes float {
 					0% {
 						

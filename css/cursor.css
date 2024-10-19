@@ -1,0 +1,46 @@
+/*Cursor*/
+:root, a {
+	cursor: none; 	
+}
+
+.cursor-dot,
+.cursor-dot-outline {
+	opacity: 1;
+pointer-events: none;
+position: absolute;
+top: 50%;
+left: 50%;
+border-radius: 50%;
+opacity: 0;
+transform: translate(-50%, -50%);
+transition: opacity 0.3s ease-in-out,
+					transform 0.3s ease-in-out;
+z-index: 10000;
+}
+
+.cursor-dot {
+--size-cursor-dot: 9px;
+width: var(--size-cursor-dot);
+height: var(--size-cursor-dot);
+background-color: #ffffff;
+}
+
+.cursor-dot-outline {
+--size-cursor-dot-outline: 45px;
+width: var(--size-cursor-dot-outline);
+height: var(--size-cursor-dot-outline);
+border: 1px solid rgb(255, 255, 255);
+background-color: #5050505e;
+box-shadow: 0 0px 20px 0px rgba(255, 255, 255, 0.671);
+}
+
+/* When in the special zone */
+.zone-active .cursor-dot {
+  background-color: #000000;
+}
+
+.zone-active .cursor-dot-outline {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: #5757575e;
+  box-shadow: 0 0px 20px 0px rgba(0, 0, 0, 0.671);
+}

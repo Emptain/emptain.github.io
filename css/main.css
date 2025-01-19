@@ -2103,7 +2103,7 @@ input, select, textarea {
 		.wrapper.style4 {
 			background-color: #303030;
 			color: #999;
-			box-shadow: inset 0px 15px 20px 0px rgb(0, 0, 0, 0.300)
+			box-shadow: inset 0px 15px 20px 0px rgb(0, 0, 0, 0.300);
 		}
 
 			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
@@ -2114,14 +2114,14 @@ input, select, textarea {
 				color: black;
 				background-image: url(../../images/wallpaper5.jpg);
 				background-position: center;
-				background-size: 155em;
+				background-size: 165em;
 				box-shadow: inset 0px 15px 20px 0px rgb(0, 0, 0, 0.300), inset 0px -15px 20px 0px rgba(0, 0, 0, 0.300);
 				filter: brightness(100%);
 				transition: all 0.5s ease;
 				}
 
 				.wrapper.style5:hover{
-					background-size: 170em;
+					background-size: 180em;
 					transition: all 0.5s ease;
 				}
 
@@ -2139,7 +2139,7 @@ input, select, textarea {
 				color: black;
 				background-image: url(../../images/wallpaper5.jpg);
 				background-position: center;
-				background-size: 155em;
+				background-size: 165em;
 				box-shadow: inset 0px 15px 20px 0px rgb(0, 0, 0, 0.300), inset 0px -15px 20px 0px rgba(0, 0, 0, 0.300);
 				filter: brightness(100%);
 				transition: all 0.5s ease;
@@ -2149,7 +2149,7 @@ input, select, textarea {
 				color: black;
 				background-image: url(../../images/wallpaper5.jpg);
 				background-position: center;
-				background-size: 155em;
+				background-size: 165em;
 				box-shadow: inset 0px 15px 20px 0px rgb(0, 0, 0, 0.300), inset 0px -15px 20px 0px rgba(0, 0, 0, 0.300);
 				filter: brightness(100%);
 				transition: all 0.5s ease;
@@ -2160,7 +2160,7 @@ input, select, textarea {
 				color: black;
 				background-image: url(../../images/wallpaper5.jpg);
 				background-position: center;
-				background-size: 155em;
+				background-size: 165em;
 				box-shadow: inset 0px 15px 20px 0px rgb(0, 0, 0, 0.300), inset 0px -15px 20px 0px rgba(0, 0, 0, 0.300);
 				filter: brightness(100%);
 				transition: all 0.5s ease;
@@ -2358,7 +2358,8 @@ input, select, textarea {
 				}
 
 				.navigation-repair{
-					height: 2em;
+					height: 150px;
+					max-width: 100%;
 				}
 
 				.navigationn li{
